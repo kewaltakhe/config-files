@@ -1,0 +1,20 @@
+separator=false
+[calendar]
+command=date +'%a, %b %d, %Y  | %r'
+interval=1
+
+[separator]
+full_text=|
+
+[volume]
+command=~/i3scripts/i3blocks/volume
+#LABEL=♪ 
+LABEL=VOL 
+interval=once
+signal=10
+#STEP=5%
+#MIXER=[determined automatically]
+#SCONTROL=[determined automatically]
+
+
+
